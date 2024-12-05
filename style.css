@@ -223,7 +223,6 @@ nav button:hover {
 }
 
 .Specialties-text p {
-    max-width: 60%;
     margin-inline: auto;
     font-size: 1rem;
     font-weight: 500;
@@ -273,7 +272,6 @@ nav button:hover {
     .works-text {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         justify-content: center;
         align-items: center;
     }
@@ -293,7 +291,7 @@ nav button:hover {
 
     .works-text p:nth-child(3) {
         font-size: 18px;
-        width: 50%;
+        margin-inline: auto;
         text-wrap: balance;
         text-align: center;
         color: #797C86;
@@ -318,7 +316,6 @@ nav button:hover {
       .other-services-text {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         justify-content: center;
         align-items: center;
     }
@@ -336,7 +333,7 @@ nav button:hover {
 
     .other-services-text p:nth-child(3) {
         font-size: 18px;
-        width: 50%;
+         margin-inline: auto;
         text-wrap: balance;
         text-align: center;
         color: #797C86;
@@ -411,13 +408,14 @@ nav button:hover {
             border-top: 1px solid gray;
             color: #797C86;
             font-size: 18px;
+            padding-top: 2rem;
 
         }
 
         .text-copyright {
             display: flex;
-            gap: 1rem;
-            padding-block: 2rem;
+            align-items: center;
+           gap: 1rem;
          
         }
 
@@ -459,6 +457,9 @@ nav button:hover {
             font-size: 36px;
            
         }
+
+        .hero-text P{
+            font-size: 16px;}
         
 
         .hero-text .btn-container {
@@ -468,27 +469,72 @@ nav button:hover {
         }
 
         .hero-text .btn-color {
-            font-size: 1.25rem;
+            font-size: 1rem;
             font-weight: bold;
             border: 1px solid #0F0F0F;
             border-radius: 100px;
             background-color: #E6AA32;
-            padding-inline: 1rem;
-           width: 60%;
+            padding-block: 0.8rem;
+           width: 50%;
      
     } 
 
+  
+   
+
     .Specialties-text h2  {
         font-size: 24px;
+      }
+      .Specialties-tx-2 {
+        width: 100%;
       }
        
     .works-text h3:nth-child(2) {
         font-size: 24px;
     }
 
-    .Specialties-text p {
-    max-width: 60%;
-} }
+    .works-text p:nth-child(3) {
+        font-size: 16px;}
+
+    .other-services-text p:nth-child(1) {
+            font-size: 16px;
+        }
+    
+    .other-services-texth3:nth-child(2) {
+            font-size: 24px;
+        }
+    
+    .other-services-text p:nth-child(3) {
+            font-size: 16px;}
+
+.fqe {
+border-bottom: 1px solid #1C1C21;
+margin-bottom: 2rem;
+}
+.fqe h2 {
+    font-size: 24px;
+
+} 
+    
+.question-icon-wrapper p {
+    color: #AFB0B6;
+    max-width: 20ch;
+    font-size: 16px; }
+
+
+.copyright {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+
+
+
+
+}
+
+
       
      
 
